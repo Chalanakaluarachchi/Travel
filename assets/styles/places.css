@@ -1,0 +1,31 @@
+.heading-places { 
+    background-color: #06934c;
+    color: white;
+    font-size: small;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    width: 70%;
+    height: 5vh;
+}
+
+.heading-places span {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sl-map img {
+    padding: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 90vh; */
+}
