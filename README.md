@@ -1,2 +1,2 @@
 # Travelweb
-**Simple HTML practice project**
+*Simple HTML practice project*
