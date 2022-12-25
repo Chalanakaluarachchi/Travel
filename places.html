@@ -13,33 +13,12 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="./assets/styles/index.css">
     <link rel="stylesheet" href="./assets/styles/about.css">
-
+    <link rel="stylesheet" href="./assets/styles/places.css">
+    
 </head>
-<style> 
   
-  .column {
-    float:Right;
-    width:50%;
-    padding:5px;
-  }
-  .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-  .center {
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-}
-
-div.a {
-    float:right;
-    font-size: 30px;
-  }
-  </style>
-<body>
-  <header>
+<body style="background-color: #ebf3f4;">
+  <header style="background-color: #06934c; color: white; margin-bottom: 25px; z-index: 0; position: sticky;">
     <a href="index.html" class="brand">Sri Lanka</a>
     <div class="menu-btn"></div>
     <div class="navigation">
@@ -48,22 +27,37 @@ div.a {
         <a href="about.html">About</a>
         <a href="places.html">Places</a>
         <a href="gallery.html">Image Gallery</a>
-        <a href="contact.html">Contacts</a>
+        <a href="./blog/blog1/index.html">Blog</a>
+        <a href="con.html">Contacts</a>
       </div>
     </div>
   </header>
 
-  <body style="background-color:rgb(135, 222, 244);">
+  <div class="heading-places">
+    <h1>
+        <span>M</span>
+        <span>A</span>
+        <span>P</span>
+        &nbsp;
+        <span>O</span>
+        <span>F</span>
+        &nbsp;
+        <span>S</span>
+        <span>R</span>
+        <span>I</span>
+        <span>&nbsp;</span>
+        <span>L</span>
+        <span>A</span>
+        <span>N</span>
+        <span>K</span>
+        <span>A</span>
 
-<body>
-  <div class="a">
-    
-      <ul>
-        <li>click to district</li> <ul>
-        find your more Details</p>
-    
+    </h1>
   </div>
-  <img src="Srilanka (3).png" usemap="#image-map">
+
+  <div class="sl-map">
+    <img src="./Image/Srilanka (3).png" usemap="#image-map">
+    
     <map name="image-map">
       <area target="circle" alt="Galle" title="Galle"
       href="https://en.wikipedia.org/wiki/Galle_District"
@@ -171,6 +165,7 @@ div.a {
         coords="117,1405,950,1482" shape="rect"> 
         
     </map>
-</body>
+  </div>
+
 </body>
 </html>
